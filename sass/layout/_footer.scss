@@ -1,0 +1,61 @@
+.wraper-footer {
+  margin: 76px 0 45px;
+  .stay {
+    float: left;
+    margin-left: 30px;
+    .title-bee {
+      margin-bottom: 80px;
+    }
+    .inputf {
+      width: 352px;
+      height: 30px;
+      padding: 0 10px;
+      outline: none;
+    }
+    .social {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      .social-item {
+        display: inline-block;
+        padding: 0 3px;
+      }
+    }
+    .feel {
+      font-size: 13px;
+      margin-top: 5px;
+    }
+  }
+  .about {
+    float: right;
+    .general {
+      width: 100%;
+      .general-item {
+        float: left;
+        width: 208px;
+        .us {
+          margin: 0;
+          padding: 0;
+          .us-item {
+            a {
+              text-decoration: none;
+              color: map-get($color, gray);
+              line-height: 20px;
+              font-size: 12px;
+              &:hover {
+                color: map-get($color, orange_2);
+                transition: all 0.5s ease;
+              }
+            }
+          }
+        }
+        .title {
+          margin-bottom: 46px;
+        }
+         .title-2 {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

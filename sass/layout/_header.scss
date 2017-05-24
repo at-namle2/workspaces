@@ -1,0 +1,93 @@
+.wrapper-header {
+  margin: 25px 0 10px;
+  height: 100px;
+  .logo {
+    text-align: center;
+    line-height: 20px;
+  }
+  .login {
+    height: 91px;
+    float: right;
+    line-height: 20px;
+    margin-top: -50px;
+    .list {
+      margin: 0;
+      padding: 0;
+      .list-item {
+        display: inline-block;
+        padding-left: 20px;
+        img {
+          padding-right: 15px;
+          display: inline-block;
+          vertical-align: bottom;
+        }
+        a {
+          text-transform: uppercase;
+          font-size: 15px;
+          text-decoration: none;
+          color: map-get($color, gray);
+          &:hover {
+            color: map-get($color, orange_2);
+            transition: all 0.5s ease;
+          }
+        }
+      }
+    }
+  }
+  .form-search {
+    position: relative;
+    margin-top: 10px;
+    .input {
+      width: 185px;
+      height: 30px;
+      border: 1px solid map-get($color, gray);
+      outline: none;
+      padding: 0 10px;
+    }
+    .submit {
+      background: url(../images/icon/search.png) 0 0 no-repeat;
+      cursor: pointer;
+      height: 31px;
+      width: 33px;
+      position: absolute;
+      left: 170px;
+      top: 4px;
+      border: none;
+      outline: none;
+    }
+    .border-select {
+      display: inline-block;
+      border: 1px solid map-get($color, gray);
+      margin-left: 6px;
+      &:after {
+        background: url(../images/icon/arrow-currency.png) center center no-repeat;
+      }
+      .select {
+        width: 185px;
+        height: 32px;
+        background-color: transparent;
+        padding-left: 5px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}
+.wrapper-nav {
+  margin-bottom: 25px;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    .menu-item {
+      display: inline-block;
+      padding: 3px;
+      a {
+        text-transform: uppercase;
+        font-size: 18px;
+        text-decoration: none;
+        color: map-get($color, gray);
+      }
+    }
+  }
+}
