@@ -12,11 +12,11 @@
       padding: 0 10px;
       outline: none;
     }
-    .social {
+    .socials {
       display: block;
       text-align: center;
       margin-top: 10px;
-      .social-item {
+      .socials-item {
         display: inline-block;
         padding: 0 3px;
       }
@@ -44,7 +44,7 @@
               font-size: 12px;
               &:hover {
                 color: map-get($color, orange_2);
-                transition: all 0.5s ease;
+                transition: all 0.5s;
               }
             }
           }
