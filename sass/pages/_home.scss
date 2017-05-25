@@ -60,7 +60,7 @@
         img {
           width: 224px;
           height: 224px;
-          transition: all 0.3s;
+          transition: all 0.3s linear;
         }
         .overlay {
           position: absolute;

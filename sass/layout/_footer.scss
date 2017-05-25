@@ -44,7 +44,7 @@
               font-size: 12px;
               &:hover {
                 color: map-get($color, orange_2);
-                transition: all 0.5s;
+                transition: all 0.5s linear;
               }
             }
           }
