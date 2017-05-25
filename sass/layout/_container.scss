@@ -11,7 +11,7 @@
   width: 100%;
   .gallery-item:nth-child(1),
   .gallery-item:nth-child(2) {
-    @extend %btn-link;
+    @extend gallery-item;
     margin-right: 33px;
   }
   .gallery-item:nth-child(3) {
